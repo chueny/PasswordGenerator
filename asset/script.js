@@ -20,13 +20,13 @@ function main(){
     }
 
     
-    pwdcriteria.len = prompt ("How many characters would you like? (Must be more than 8 and less than 123 characters?)");
+    pwdcriteria.len = prompt ("How many characters would you like? (Must be more than 8 and no more than 128 characters?)");
    
     var password = "";
     var randomindex = 0;
 
 
-    if (pwdcriteria.len > 7 && pwdcriteria.len < 124){
+    if (pwdcriteria.len > 7 && pwdcriteria.len < 129){
         pwdcriteria.lc = confirm ("Would you like an lowercase?");
         pwdcriteria.uc = confirm ("Would you like an uppercase?");
         pwdcriteria.num = confirm ("Would you like a number?");
@@ -54,10 +54,14 @@ function main(){
              }
   
          }
-         alert("password is "+password);
+         
+         var passwordInfo = document.getElementById("passwordInfo");
+         passwordInfo.style.display = "block";
+         var generatedPassword = document.getElementById("generatedPassword");
+         generatedPassword.innerHTML = password;
     }
     else {
-        alert("Your number must be between 8 and 123!");
+        alert("Your number must be between 8 and 128!");
 
     }
 

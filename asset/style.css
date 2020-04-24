@@ -10,21 +10,21 @@ body{
     align-content: center;
     height: 100vh;
     margin: 50px;
+    align-items: center;
  }
 
 .container label{
-    width: 80%;
     margin: 0 auto;
     font-style: 'San serif';
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-
+    margin-bottom: 20px;
 }
 
-.container input{
-    width: 80%;
-    margin: 0 auto;
 
+#generatedPassword{
+    background: rgba(255, 0, 0, .2);
+    width: 20%;
 }
 
 .container button{
@@ -33,4 +33,9 @@ body{
     color: white;
     border-radius: 10px;
     height: 30px;   
+}
+
+.container button:focus{
+ outline: none;    
+   
 }
