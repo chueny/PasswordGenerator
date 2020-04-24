@@ -9,12 +9,8 @@ The easiest way to get to the application is through this link: https://chueny.g
 # Screen shots of the application 
 ![Screen Shot 2020-04-24 at 10 37 36 AM](https://user-images.githubusercontent.com/17972802/80230690-e609e780-8617-11ea-99dc-5f8a20e0b011.png)
 
-
 # Contributors
-Chue Yang 
-chueyangib@gmail.com
-I worked on the homework mostly with Gene Shaver then tried to fixed some of the items myself. 
-
+Chue Yang (chueyangib@gmail.com) and Gene Shaver. 
 
 # Licensing 
 @ Chue Yang
